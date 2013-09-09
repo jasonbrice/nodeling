@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+  h1= title
+    
+  ul
+  - for (var d in databases)
+    li
+      a(href= '/database/edit/' + databases[d]) 
+        p= databases[d] 
+  
+  //p
+  //a(class='button', href='/database/create') + New Database
+  
+  br
+  form(method='post')
+    p Add a new database:
+    input(type='text',name='name',id='name')        
+    input(type='submit',name='submit',value='Submit')
+  br
+  

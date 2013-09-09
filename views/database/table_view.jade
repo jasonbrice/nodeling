@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h1= message
+    
+    h3 Data
+    table
+      - for (var r in rows)
+          tr
+            td= rows[r].id
+            td= rows[r].some_text
+    
+  br

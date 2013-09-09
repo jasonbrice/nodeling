@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+  h1= message
+    
+    h3 Columns
+    ul
+  - for (var c in columns)
+    li= columns[c]
+    
+  br
+    
+  form(method='post')
+    p Add a new column: 
+    input(type='text',name='column_name',id='column_name' value='Column name' onclick='this.value="";' style='color: grey')        
+    select(name='column_type')
+      option(value='') < Select Type >
+      option(value='INTEGER') INTEGER
+      option(value='TEXT') TEXT
+      option(value='REAL') REAL
+      option(value='NUMERIC') NUMERIC
+    
+    input(type='submit',name='submit',value='Submit')      

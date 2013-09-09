@@ -1,5 +1,5 @@
 # nodeling
-A small app to demonstrate Node.js/Express and node-sqlite3. 
+A Very Simple Demonstration of Node.js/Express and SQLite
 
 ## Objective
 Proof-of-concept project showing:
@@ -19,9 +19,10 @@ Then, start the app.js by running
 
 Assuming it all worked, you can use the app at http://localhost:3000
 
-
 ## Developing
 Feel free to fork, clone, etc. 
 
 Created with [Nodeclipse v0.4](https://github.com/Nodeclipse/nodeclipse-1)
  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
+
+

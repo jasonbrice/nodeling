@@ -7,6 +7,9 @@ Proof-of-concept project showing:
  * Express.js as the web framework
  * node-sqlite3 as the database API
  * Some basic DDL/DML
+
+## Details
+http://stealthistech.blogspot.com/2013/09/a-very-simple-demonstration-of.html
  
 ## Usage
 This app is packaged *without* its dependencies. 

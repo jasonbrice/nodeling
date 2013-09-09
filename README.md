@@ -9,7 +9,7 @@ Proof-of-concept project showing:
  * Some basic DDL/DML
 
 ## Details
-http://stealthistech.blogspot.com/2013/09/a-very-simple-demonstration-of.html
+Commentary at [StealThisTech](http://stealthistech.blogspot.com/2013/09/a-very-simple-demonstration-of.html)
  
 ## Usage
 This app is packaged *without* its dependencies. 
